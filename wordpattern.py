@@ -19,11 +19,11 @@ Created on Sun Oct 18 00:47:37 2015
 #        if ptnDict[ptn] != word or wordDict[word] != ptn:
 #            return False
 #    return True
-#def wordPattern(pattern, str):
-#    s = pattern
-#    t = str.split()
-#
-#    return map(s.find, s) == map(t.index, t)
+def wordPattern(pattern, str):
+    s = pattern
+    t = str.split()
+
+    return map(s.find, s) == map(t.index, t)
 
 def wordPattern(pattern, str):
     s = pattern
